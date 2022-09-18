@@ -1,0 +1,126 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+/*  header  */
+
+.header{
+
+    background: #333;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LOGO */
+
+.logo{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.logotext{
+    margin-top: 20px;
+    margin-right: 400px;
+    float: left;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* TAG A */
+
+a{
+    text-decoration: none;
+}
+
+/* nav__link */
+
+.nav__link{
+
+float:right;
+width: 60%;
+
+}
+
+.nav__link{
+
+text-align: right;
+margin-top: 30px;
+margin-right: 30px;
+font-size: 1em;
+margin-bottom: 10px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nav__link > a{color: #fff;}
+
+.nav__link>a:hover{
+
+color: #fff;
+background-color: #333;
+border: 2px solid #fff;
+border-radius: 10px;
+padding: 10px;
+
+}
+
+.nav__link > a:not(:last-child)
+{
+    margin-right: 5%;
+}
+
+/*---------------------------------------------------------------------*/
+
+/* MAIN */
+
+.main{
+    padding-top: 80px;
+}
+
+.mainlogo{
+    width: 100%;
+    height: 900px;
+background: url('https://naked-science.ru/wp-content/uploads/2016/04/article_internet_keyboard-100042718-orig.jpg') no-repeat center;
+background-size: cover;
+
+}
+
+.maintext{
+    font-size: 3em;  
+    text-align: center;
+    padding-top: 445px;
+
+}
+.maintext:hover{
+    color: darkorange;
+    font-size: 700;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+   
+}
+.footertext{
+    text-align: center;
+    color: orange;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    
+}
+
+
